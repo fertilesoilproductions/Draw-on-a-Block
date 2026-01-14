@@ -86,6 +86,7 @@ Whether you're creating Minecraft block textures, Roblox accessories, indie game
 
 ## Screenshots
 
+<img width="1916" height="1004" alt="image" src="https://github.com/user-attachments/assets/51016ce7-d4fb-4215-95d7-1b01b99f6c2d" />
 <img width="1546" height="830" alt="image" src="https://github.com/user-attachments/assets/df9432cb-6172-4b8a-a69a-6c5477812c84" />
 <img width="1545" height="830" alt="image" src="https://github.com/user-attachments/assets/19b9e67e-618e-4997-b172-6793df6d0a7a" />
 <img width="1319" height="573" alt="image" src="https://github.com/user-attachments/assets/c0dca682-2f81-4af7-8fda-a0436c0c50e5" />
@@ -101,7 +102,7 @@ Whether you're creating Minecraft block textures, Roblox accessories, indie game
 | Edition | Price | Features |
 |---------|-------|----------|
 | **Free** | $0 | Built-in models, full painting tools, PNG export |
-| **Pro Unlock** | $29 (one-time) | Custom model import, texture import, advanced export |
+| **Pro Unlock** | $29 (one-time) | Custom model import |
 | **Model Kits** | Varies | Additional themed model packs |
 
 ---
@@ -116,7 +117,7 @@ Whether you're creating Minecraft block textures, Roblox accessories, indie game
 | glTF/GLB import/export | ✅ Complete |
 | FBX/OBJ import/export | ✅ Complete |
 | Kitbashing | 📋 Planned |
-| Diorama / Level Editor | 📋 Planned |
+| Level Editor / Diorama Staging | 📋 Planned |
 | In-Level Painting | 📋 Planned |
 
 ---
