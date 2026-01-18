@@ -33,7 +33,7 @@ When you first launch Draw on a Block, you'll see the **Project View** — your 
 
 ### First Steps
 
-1. Tap ![Add](icons/icon_6_5.png) **Add Model** to open the Model Catalog
+1. Tap <img src="icons/icon_6_5.png" alt="Add" height="20"> **Add Model** to open the Model Catalog
 2. Browse categories and select a model (many free models are available in each category!)
 3. Choose a texture resolution (higher = more detail, larger file size)
 4. Your model appears in the project — tap it to start painting
@@ -41,8 +41,8 @@ When you first launch Draw on a Block, you'll see the **Project View** — your 
 ### Quick Tips
 
 - **Auto-save**: Your work is saved automatically as you paint and make changes
-- **Undo mistakes**: Use the ![Undo](icons/icon_2_6.png) undo button or `Ctrl+Z` (PC) to reverse changes
-- **Get help**: Tap ![Help](icons/icon_6_6.png) in the Model Painter to enter Help Mode — then tap any icon to learn what it does
+- **Undo mistakes**: Use the <img src="icons/icon_2_6.png" alt="Undo" height="20"> undo button or `Ctrl+Z` (PC) to reverse changes
+- **Get help**: Tap <img src="icons/icon_6_6.png" alt="Help" height="20"> in the Model Painter to enter Help Mode — then tap any icon to learn what it does
 
 ---
 
@@ -63,7 +63,7 @@ Throughout the app, you'll encounter grids of tiles for selecting models, palett
 
 Most screens have a header bar with:
 
-- ![Menu](icons/icon_6_1.png) **Menu** (top-left): Access navigation and settings
+- <img src="icons/icon_6_1.png" alt="Menu" height="20"> **Menu** (top-left): Access navigation and settings
 - **Title** (center): Current screen or project name
 - **Action buttons** (top-right): Context-specific actions
 
@@ -71,8 +71,8 @@ Most screens have a header bar with:
 
 Full-screen overlays (like Settings or Add Model) can be closed by:
 
-- Tapping the ![Close](icons/icon_8_2.png) close button
-- Tapping the ![Back](icons/icon_7_1.png) back button
+- Tapping the <img src="icons/icon_8_2.png" alt="Close" height="20"> close button
+- Tapping the <img src="icons/icon_7_1.png" alt="Back" height="20"> back button
 - Pressing **Escape** (PC)
 
 ---
@@ -87,16 +87,16 @@ The Project View is your home base for managing all models in your current proje
 |--------|-----|
 | Open a model | Double-click (PC) or tap (mobile) |
 | Select models | Click (PC) or long-press (mobile) |
-| Add a model | Tap the ![Add](icons/icon_6_5.png) tile |
-| Rename a model | Select it, then tap ![Rename](icons/icon_2_3.png) |
-| Delete models | Select and tap ![Delete](icons/icon_6_3.png) |
-| Duplicate models | Select and tap ![Duplicate](icons/icon_7_4.png) |
+| Add a model | Tap the <img src="icons/icon_6_5.png" alt="Add" height="20"> tile |
+| Rename a model | Select it, then tap <img src="icons/icon_2_3.png" alt="Rename" height="20"> |
+| Delete models | Select and tap <img src="icons/icon_6_3.png" alt="Delete" height="20"> |
+| Duplicate models | Select and tap <img src="icons/icon_7_4.png" alt="Duplicate" height="20"> |
 | Reorder models | Drag tiles to new positions |
-| Export models | Select and tap ![Export](icons/icon_4_1.png) |
+| Export models | Select and tap <img src="icons/icon_4_1.png" alt="Export" height="20"> |
 
 ### Menu Options
 
-Tap ![Menu](icons/icon_6_1.png) to access:
+Tap <img src="icons/icon_6_1.png" alt="Menu" height="20"> to access:
 
 - **Project Manager** — Create, open, or manage projects
 - **Store** — Browse and purchase model packs
@@ -116,7 +116,7 @@ The **Add Model** screen lets you browse and add models to your project.
 
 ### Using the Model Catalog
 
-1. Open the catalog via ![Add](icons/icon_6_5.png) in Project View
+1. Open the catalog via <img src="icons/icon_6_5.png" alt="Add" height="20"> in Project View
 2. Browse categories using the tabs (Blocks, Creatures, Furniture, etc.)
 3. Each category contains free starter models — look for unlocked items
 4. Tap a model to see details
@@ -178,9 +178,9 @@ Navigate around your model to paint from any angle:
 
 #### View Options
 
-- ![Grid](icons/icon_4_6.png) **Grid**: Toggle texel grid overlay to see pixel boundaries
-- ![Explode](icons/icon_6_2.png) **Explode**: Separate model parts for easier painting (if supported)
-- ![Rotation Snap](icons/icon_6_7.png) **Rotation Snap**: Snap camera rotation to 45° increments
+- <img src="icons/icon_4_6.png" alt="Grid" height="20"> **Grid**: Toggle texel grid overlay to see pixel boundaries
+- <img src="icons/icon_6_2.png" alt="Explode" height="20"> **Explode**: Separate model parts for easier painting (if supported)
+- <img src="icons/icon_6_7.png" alt="Rotation Snap" height="20"> **Rotation Snap**: Snap camera rotation to 45° increments
 
 ---
 
@@ -192,11 +192,11 @@ Draw on a Block provides a variety of tools for creating pixel art. Select tools
 
 | Tool | Icon | Description |
 |------|------|-------------|
-| **Selection** | ![Selection](icons/icon_1_1.png) | Select rectangular regions for copy/paste/transform |
-| **Brush** | ![Brush](icons/icon_1_3.png) | Paint pixels with the current color |
-| **Eraser** | ![Eraser](icons/icon_1_4.png) | Remove pixels (make transparent) |
-| **Fill** | ![Fill](icons/icon_4_4.png) | Fill a face or selection with color |
-| **Color Picker** | ![Color Picker](icons/icon_8_4.png) | Sample a color from the model |
+| **Selection** | <img src="icons/icon_1_1.png" alt="Selection" height="20"> | Select rectangular regions for copy/paste/transform |
+| **Brush** | <img src="icons/icon_1_3.png" alt="Brush" height="20"> | Paint pixels with the current color |
+| **Eraser** | <img src="icons/icon_1_4.png" alt="Eraser" height="20"> | Remove pixels (make transparent) |
+| **Fill** | <img src="icons/icon_4_4.png" alt="Fill" height="20"> | Fill a face or selection with color |
+| **Color Picker** | <img src="icons/icon_8_4.png" alt="Color Picker" height="20"> | Sample a color from the model |
 
 > **Tip (PC)**: Hold **Alt** to temporarily switch to the Color Picker while using any tool.
 
@@ -204,24 +204,24 @@ Draw on a Block provides a variety of tools for creating pixel art. Select tools
 
 | Tool | Icon | Description |
 |------|------|-------------|
-| **Line** | ![Line](icons/icon_5_3.png) | Draw straight lines between two points |
-| **Rectangle (Hollow)** | ![Rect Hollow](icons/icon_1_5.png) | Draw rectangular outlines |
-| **Rectangle (Solid)** | ![Rect Solid](icons/icon_2_5.png) | Draw filled rectangles |
-| **Circle (Hollow)** | ![Circle Hollow](icons/icon_3_5.png) | Draw circular outlines |
-| **Circle (Solid)** | ![Circle Solid](icons/icon_4_5.png) | Draw filled circles |
+| **Line** | <img src="icons/icon_5_3.png" alt="Line" height="20"> | Draw straight lines between two points |
+| **Rectangle (Hollow)** | <img src="icons/icon_1_5.png" alt="Rect Hollow" height="20"> | Draw rectangular outlines |
+| **Rectangle (Solid)** | <img src="icons/icon_2_5.png" alt="Rect Solid" height="20"> | Draw filled rectangles |
+| **Circle (Hollow)** | <img src="icons/icon_3_5.png" alt="Circle Hollow" height="20"> | Draw circular outlines |
+| **Circle (Solid)** | <img src="icons/icon_4_5.png" alt="Circle Solid" height="20"> | Draw filled circles |
 
 #### Advanced Tools
 
 | Tool | Icon | Description |
 |------|------|-------------|
-| **Spray Paint** | ![Spray](icons/icon_4_3.png) | Paint with randomized dot patterns |
-| **Blend Brush** | ![Blend Brush](icons/icon_10_2.png) | Smooth colors by blending neighboring pixels |
-| **Blend Line** | ![Blend Line](icons/icon_11_2.png) | Create smooth color transitions along a line |
-| **Linear Gradient** | ![Linear Gradient](icons/icon_12_1.png) | Fill with a gradient between two points |
-| **Radial Gradient** | ![Radial Gradient](icons/icon_13_1.png) | Fill with a circular gradient from center outward |
-| **Replace Color** | ![Replace Color](icons/icon_11_1.png) | Replace all instances of one color with another on a face |
-| **Face Eraser** | ![Face Eraser](icons/icon_2_4.png) | Erase an entire face at once |
-| **Stamp** | ![Stamp](icons/icon_5_5.png) | Apply decals from your decal library |
+| **Spray Paint** | <img src="icons/icon_4_3.png" alt="Spray" height="20"> | Paint with randomized dot patterns |
+| **Blend Brush** | <img src="icons/icon_10_2.png" alt="Blend Brush" height="20"> | Smooth colors by blending neighboring pixels |
+| **Blend Line** | <img src="icons/icon_11_2.png" alt="Blend Line" height="20"> | Create smooth color transitions along a line |
+| **Linear Gradient** | <img src="icons/icon_12_1.png" alt="Linear Gradient" height="20"> | Fill with a gradient between two points |
+| **Radial Gradient** | <img src="icons/icon_13_1.png" alt="Radial Gradient" height="20"> | Fill with a circular gradient from center outward |
+| **Replace Color** | <img src="icons/icon_11_1.png" alt="Replace Color" height="20"> | Replace all instances of one color with another on a face |
+| **Face Eraser** | <img src="icons/icon_2_4.png" alt="Face Eraser" height="20"> | Erase an entire face at once |
+| **Stamp** | <img src="icons/icon_5_5.png" alt="Stamp" height="20"> | Apply decals from your decal library |
 
 #### Tool Options
 
@@ -244,17 +244,17 @@ Layers let you organize your painting into separate, editable surfaces — just 
 
 #### Layer Controls
 
-Open the **Layer Window** by tapping ![Layers](icons/icon_6_5.png) or pressing **L** (PC).
+Open the **Layer Window** by tapping <img src="icons/icon_6_5.png" alt="Layers" height="20"> or pressing **L** (PC).
 
 | Action | How |
 |--------|-----|
-| Add layer | Tap ![Add](icons/icon_4_8.png) |
-| Delete layer | Select layer, tap ![Delete](icons/icon_6_3.png) |
-| Toggle visibility | Tap the ![Visibility](icons/icon_6_4.png) icon |
-| Rename layer | Double-tap the layer name or tap ![Rename](icons/icon_2_3.png) |
-| Reorder layers | Use ![Move Up](icons/icon_13_6.png) / ![Move Down](icons/icon_14_6.png) buttons |
-| Merge down | Select layer, tap ![Merge](icons/icon_12_6.png) |
-| Duplicate layer | Select layer, tap ![Duplicate](icons/icon_7_4.png) |
+| Add layer | Tap <img src="icons/icon_4_8.png" alt="Add" height="20"> |
+| Delete layer | Select layer, tap <img src="icons/icon_6_3.png" alt="Delete" height="20"> |
+| Toggle visibility | Tap the <img src="icons/icon_6_4.png" alt="Visibility" height="20"> icon |
+| Rename layer | Double-tap the layer name or tap <img src="icons/icon_2_3.png" alt="Rename" height="20"> |
+| Reorder layers | Use <img src="icons/icon_13_6.png" alt="Move Up" height="20"> / <img src="icons/icon_14_6.png" alt="Move Down" height="20"> buttons |
+| Merge down | Select layer, tap <img src="icons/icon_12_6.png" alt="Merge" height="20"> |
+| Duplicate layer | Select layer, tap <img src="icons/icon_7_4.png" alt="Duplicate" height="20"> |
 
 > **Note**: Each model supports up to **16 layers**. The bottom layer is the base; layers above are composited on top.
 
@@ -273,7 +273,7 @@ The **Palette Panel** on the right side of the screen shows your active palette:
 
 #### Switching Palettes
 
-1. Tap the ![Edit Palette](icons/icon_3_8.png) **Edit Palette** button to open the Palette Manager
+1. Tap the <img src="icons/icon_3_8.png" alt="Edit Palette" height="20"> **Edit Palette** button to open the Palette Manager
 2. Select a different palette from the list on the left
 3. Close the Palette Manager — the new palette is now active
 
@@ -287,7 +287,7 @@ Selections allow you to work on specific regions of your texture.
 
 #### Making a Selection
 
-1. Choose the **Selection Tool** (![Selection](icons/icon_1_1.png))
+1. Choose the **Selection Tool** (<img src="icons/icon_1_1.png" alt="Selection" height="20">)
 2. Click and drag on a face to define a rectangular region
 3. A marching-ants border shows the selected area
 
@@ -297,21 +297,21 @@ With an active selection, you can:
 
 | Action | Shortcut (PC) | Icon | Description |
 |--------|---------------|------|-------------|
-| Copy | `Ctrl+C` | ![Copy](icons/icon_2_1.png) | Copy selected pixels to clipboard |
+| Copy | `Ctrl+C` | <img src="icons/icon_2_1.png" alt="Copy" height="20"> | Copy selected pixels to clipboard |
 | Cut | `Ctrl+X` | | Cut selected pixels (copies then deletes) |
-| Paste | `Ctrl+V` | ![Paste](icons/icon_3_1.png) | Paste clipboard contents |
+| Paste | `Ctrl+V` | <img src="icons/icon_3_1.png" alt="Paste" height="20"> | Paste clipboard contents |
 | Delete | `Delete` | | Clear selected pixels |
-| Flip Horizontal | `Shift+H` | ![Flip H](icons/icon_2_2.png) | Mirror selection horizontally |
-| Flip Vertical | `Shift+V` | ![Flip V](icons/icon_3_2.png) | Mirror selection vertically |
-| Rotate CW | `Shift+W` | ![Rotate CW](icons/icon_4_2.png) | Rotate 90° clockwise |
-| Rotate CCW | `Shift+Q` | ![Rotate CCW](icons/icon_5_2.png) | Rotate 90° counter-clockwise |
+| Flip Horizontal | `Shift+H` | <img src="icons/icon_2_2.png" alt="Flip H" height="20"> | Mirror selection horizontally |
+| Flip Vertical | `Shift+V` | <img src="icons/icon_3_2.png" alt="Flip V" height="20"> | Mirror selection vertically |
+| Rotate CW | `Shift+W` | <img src="icons/icon_4_2.png" alt="Rotate CW" height="20"> | Rotate 90° clockwise |
+| Rotate CCW | `Shift+Q` | <img src="icons/icon_5_2.png" alt="Rotate CCW" height="20"> | Rotate 90° counter-clockwise |
 | Move | Arrow keys | | Nudge selection (Shift = 8px) |
 
 #### Deselecting
 
 - Click outside the selection
 - Press **Escape**
-- Tap the ![Cancel](icons/icon_8_8.png) cancel button
+- Tap the <img src="icons/icon_8_8.png" alt="Cancel" height="20"> cancel button
 
 ---
 
@@ -322,7 +322,7 @@ Share your painted models by exporting them as images or 3D files.
 ### Export Options
 
 1. Select model(s) in Project View
-2. Tap ![Export](icons/icon_4_1.png) **Export**
+2. Tap <img src="icons/icon_4_1.png" alt="Export" height="20"> **Export**
 3. Choose export type:
 
 #### Texture Export (PNG)
@@ -357,7 +357,7 @@ Decals are pre-made images you can stamp onto your models — perfect for eyes, 
 
 ### Using Decals
 
-1. Select the **Stamp Tool** (![Stamp](icons/icon_5_5.png))
+1. Select the **Stamp Tool** (<img src="icons/icon_5_5.png" alt="Stamp" height="20">)
 2. The Decal Library opens (on PC) or select "Load from Library" (on mobile)
 3. Browse and tap a decal, then tap **Copy to Clipboard**
 4. A toast appears: "Click Face to Paste To"
@@ -378,17 +378,17 @@ The Palette Manager is a full-featured color palette editor.
 ### Accessing the Palette Manager
 
 - From **Project View**: Menu > **Edit Palettes**
-- From **Model Painter**: Tap the ![Edit Palette](icons/icon_3_8.png) **Edit Palette** button
+- From **Model Painter**: Tap the <img src="icons/icon_3_8.png" alt="Edit Palette" height="20"> **Edit Palette** button
 
 ### Managing Palettes
 
 | Action | How |
 |--------|-----|
-| Create palette | Tap ![Add](icons/icon_6_5.png) **New** |
-| Duplicate palette | Select palette, tap ![Duplicate](icons/icon_7_4.png) |
-| Delete palette | Select palette, tap ![Delete](icons/icon_6_3.png) |
+| Create palette | Tap <img src="icons/icon_6_5.png" alt="Add" height="20"> **New** |
+| Duplicate palette | Select palette, tap <img src="icons/icon_7_4.png" alt="Duplicate" height="20"> |
+| Delete palette | Select palette, tap <img src="icons/icon_6_3.png" alt="Delete" height="20"> |
 | Rename palette | Edit the name field at the top |
-| Import palette | Tap ![Import](icons/icon_5_1.png) **Import** |
+| Import palette | Tap <img src="icons/icon_5_1.png" alt="Import" height="20"> **Import** |
 
 ### Editing Colors
 
@@ -397,7 +397,7 @@ With a palette selected:
 1. Tap a color swatch to edit it
 2. Use the **HSV picker** or **RGB sliders** to adjust
 3. Enter a **hex code** for precise colors
-4. Tap ![Add](icons/icon_6_5.png) to add new colors
+4. Tap <img src="icons/icon_6_5.png" alt="Add" height="20"> to add new colors
 5. Drag colors to reorder them
 
 ### Importing Palettes
@@ -564,8 +564,8 @@ A: Ensure your model file:
 
 ### Getting Help
 
-- **In-App Help**: Tap ![Help](icons/icon_6_6.png) in the Model Painter
-- **Report Bugs**: Menu > **Report Bug** ![Bug](icons/icon_12_8.png)
+- **In-App Help**: Tap <img src="icons/icon_6_6.png" alt="Help" height="20"> in the Model Painter
+- **Report Bugs**: Menu > **Report Bug** <img src="icons/icon_12_8.png" alt="Bug" height="20">
 ### Contact
 
 For additional support, visit our GitHub repository or community forums.
