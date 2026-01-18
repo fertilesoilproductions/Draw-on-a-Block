@@ -189,7 +189,7 @@ When holding your device horizontally:
 - **Next to Toolbar**: Secondary toolbar (tools within toolbar category and other settings like brush size)
 - **Top-Right**: Home, Help, and Layer buttons
 - **Right Center**: Vertical palette strip for quick color selection
-- **Top-Right**: Zoom +/- buttons
+- **Top-Right of Viewport**: Zoom +/- buttons
 - **Bottom-Right**: Layer, Palette Manager, and Undo/Redo buttons
 
 #### Mobile Layout — Portrait
@@ -197,9 +197,9 @@ When holding your device horizontally:
 When holding your device vertically:
 
 - **Top Center**: Horizontal palette
-- **Top-Left Corner**: Undo/Redo, and Color Picker and Palette Manager buttons
+- **Top-Left Corner**: Undo/Redo, Color Picker, and Palette Manager buttons
 - **Top-Right Corner**: Home, Help, and Layer buttons
-- **Top-Right**: Zoom +/- buttons
+- **Top-Right of Viewport**: Zoom +/- buttons
 - **Bottom Edge**: Horizontal toolbar with all painting tools
 - **Above Toolbar**: Secondary toolbar (tools within toolbar category and other settings like brush size)
 
