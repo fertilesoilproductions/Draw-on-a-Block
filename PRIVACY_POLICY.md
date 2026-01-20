@@ -60,4 +60,5 @@ We may update this Privacy Policy from time to time. We will notify you of chang
 ## Contact Us
 
 If you have questions about this Privacy Policy, contact us at:
+- **Email:** drawonablock@gmail.com
 - **Discord:** https://discord.gg/eMKJ5U5

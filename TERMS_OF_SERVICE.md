@@ -48,4 +48,5 @@ These Terms are governed by the laws of the State of South Carolina, United Stat
 ## Contact Us
 
 If you have questions about these Terms, contact us at:
+- **Email:** drawonablock@gmail.com
 - **Discord:** https://discord.gg/eMKJ5U5
