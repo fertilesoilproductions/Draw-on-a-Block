@@ -1,4 +1,4 @@
-# Draw on a Block
+<img width="3840" height="2160" alt="Full logo 4k" src="https://github.com/user-attachments/assets/23f2fee7-d67d-4293-8a3a-7b3894159bea" />
 
 **Paint directly on 3D models with pixel-perfect precision.**
 
@@ -84,16 +84,19 @@ Whether you're creating Minecraft block textures, Roblox accessories, indie game
 
 ---
 
+## Videos
+
+[![Watch the video](https://img.youtube.com/vi/bjNn8wMaYTo/0.jpg)](https://youtu.be/bjNn8wMaYTo)
+
+[![Watch the video](https://img.youtube.com/vi/iku4O-Yb8pY/0.jpg)](https://youtu.be/iku4O-Yb8pY)
+
+---
+
 ## Screenshots
 
-<img width="1916" height="1004" alt="image" src="https://github.com/user-attachments/assets/51016ce7-d4fb-4215-95d7-1b01b99f6c2d" />
-<img width="1546" height="830" alt="image" src="https://github.com/user-attachments/assets/df9432cb-6172-4b8a-a69a-6c5477812c84" />
-<img width="1545" height="830" alt="image" src="https://github.com/user-attachments/assets/19b9e67e-618e-4997-b172-6793df6d0a7a" />
-<img width="1319" height="573" alt="image" src="https://github.com/user-attachments/assets/c0dca682-2f81-4af7-8fda-a0436c0c50e5" />
-<img width="1919" height="1031" alt="image" src="https://github.com/user-attachments/assets/b14b4a35-fc14-4bef-b1e4-606c85ebe7ab" />
-<img width="1919" height="1031" alt="image" src="https://github.com/user-attachments/assets/4b789724-6d90-4de7-b222-016c2c8b52b6" />
-<img width="1919" height="1033" alt="image" src="https://github.com/user-attachments/assets/a0fae733-343e-4049-8c21-a9b8270a1e49" />
-
+<img width="1920" height="1080" alt="model_painter_2" src="https://github.com/user-attachments/assets/d7064212-03a4-4949-b952-64daa4c27ec6" />
+<img width="1920" height="1080" alt="translucent_grid" src="https://github.com/user-attachments/assets/c434f280-6cfd-401c-ae15-e1851b553076" />
+<img width="1920" height="1080" alt="project_view_2" src="https://github.com/user-attachments/assets/ce1ba47f-b88b-4e02-80b7-00cc636c1a36" />
 
 ---
 
