@@ -59,18 +59,19 @@ Throughout the app, you'll encounter grids of tiles for selecting models, palett
 
 - **Click** a tile to select it
 - **Double-click** to open/activate the item
-- **Hover** over a tile to reveal a <img src="icons/icon_6_1.png" alt="Menu" height="20"> menu button in the top-right corner
+- **Hover** over a tile to reveal a <img src="icons/icon_6_8.png" alt="Menu" height="20"> menu button in the top-right corner
 - Tiles display a **thumbnail** and **name label**
 
 #### Tile Hover Menu
 
-Clicking the <img src="icons/icon_6_1.png" alt="Menu" height="20"> button on a tile reveals a dropdown menu with quick actions:
+Clicking the <img src="icons/icon_6_8.png" alt="Menu" height="20"> button on a tile reveals a dropdown menu with quick actions:
 
 - <img src="icons/icon_2_3.png" alt="Rename" height="20"> **Rename** — Change the item's name
-- <img src="icons/icon_4_2.png" alt="Refresh Textures" height="20"> **Refresh Textures** — Reload textures from disk after external editing
-- <img src="icons/icon_10_3.png" alt="Change Resolution" height="20"> **Change Resolution** — Adjust the texture resolution
+- <img src="icons/icon_4_2.png" alt="Refresh Textures" height="20"> **Refresh Textures** — Reload textures from disk after external editing (PC only)
+- <img src="icons/icon_5_5.png" alt="Change Resolution" height="20"> **Change Resolution** — Adjust the texture resolution
 - <img src="icons/icon_4_1.png" alt="Export" height="20"> **Export** — Export the item
 - <img src="icons/icon_7_4.png" alt="Duplicate" height="20"> **Duplicate** — Create a copy
+- <img src="icons/icon_10_8.png" alt="Take Snapshot" height="20"> **Take Snapshot** — Open the Snapshot & Share screen for this item
 - <img src="icons/icon_6_3.png" alt="Delete" height="20"> **Delete** — Remove the item
 
 ### Header Bars
@@ -99,14 +100,16 @@ The **Models** tab is your home base for managing all models in your current pro
 | Action | How |
 |--------|-----|
 | Open a model | Double-click the model tile |
-| Select models | Click a model tile |
+| Select a model | Click a model tile |
+| Multi-select | `Ctrl + Click` to toggle individual tiles, `Shift + Click` for range selection |
+| Marquee select | Click and drag on an empty area to draw a selection box |
 | Add a model | Tap the <img src="icons/icon_6_5.png" alt="Add" height="20"> tile |
-| Rename a model | Select it, then tap <img src="icons/icon_2_3.png" alt="Rename" height="20"> in the selection menu |
-| Delete models | Select and tap <img src="icons/icon_6_3.png" alt="Delete" height="20"> in the selection menu |
-| Duplicate models | Select and tap <img src="icons/icon_7_4.png" alt="Duplicate" height="20"> in the selection menu |
-| Reorder models | Drag tiles to new positions |
-| Export models | Select and tap <img src="icons/icon_4_1.png" alt="Export" height="20"> in the selection menu |
-| Toggle view | Tap the view toggle button (top-right) to switch between grid and list view |
+| Rename a model | Hover over a tile and tap <img src="icons/icon_6_8.png" alt="Menu" height="20"> then <img src="icons/icon_2_3.png" alt="Rename" height="20"> **Rename** |
+| Delete models | Select, tap <img src="icons/icon_6_8.png" alt="Menu" height="20"> in the selection toolbar, then <img src="icons/icon_6_3.png" alt="Delete" height="20"> **Delete** |
+| Duplicate models | Select, tap <img src="icons/icon_6_8.png" alt="Menu" height="20"> in the selection toolbar, then <img src="icons/icon_7_4.png" alt="Duplicate" height="20"> **Duplicate** |
+| Export models | Select, tap <img src="icons/icon_6_8.png" alt="Menu" height="20"> in the selection toolbar, then <img src="icons/icon_4_1.png" alt="Export" height="20"> **Export** |
+| Reorder models | Select and use <img src="icons/icon_7_6.png" alt="Move Forward" height="20"> **Move Forward** / <img src="icons/icon_8_6.png" alt="Move Backward" height="20"> **Move Backward** in the selection toolbar |
+| Toggle view | Tap the view toggle button (top-right corner) to switch between grid and compact view |
 
 ### Menu Options
 
@@ -116,10 +119,29 @@ Tap <img src="icons/icon_6_1.png" alt="Menu" height="20"> to access:
 - **Decal Library** — View available decals
 - **Edit Palettes** — Manage color palettes
 - **Open Project Folder** — Open textures folder in File Explorer
-- **Settings** — App preferences and controls
 - **User Guide** — Opens this guide
+- **Settings** — App preferences and controls
 - **Report Bug** — Send feedback to developers
 - **Close Draw on a Block** — Exit the app
+
+### Project Manager
+
+The Project Manager lets you create, open, and manage separate projects — each project has its own set of models and textures.
+
+1. Open it via <img src="icons/icon_6_1.png" alt="Menu" height="20"> **Menu** > **Project Manager**
+2. Projects appear in a tile grid sorted by most recently modified
+3. Each tile shows the project name, model count, last modified date, and thumbnail previews
+
+| Action | How |
+|--------|-----|
+| Create a project | Tap the <img src="icons/icon_6_5.png" alt="Add" height="20"> **New Project** button |
+| Open a project | Select a project tile, then tap <img src="icons/icon_5_1.png" alt="Open" height="20"> **Open Project** — or double-click the tile directly |
+| Rename a project | Hover over a tile and tap <img src="icons/icon_6_8.png" alt="Menu" height="20"> then <img src="icons/icon_2_3.png" alt="Rename" height="20"> **Rename** |
+| Duplicate projects | Select, tap <img src="icons/icon_6_8.png" alt="Menu" height="20"> in the selection toolbar, then <img src="icons/icon_7_4.png" alt="Duplicate" height="20"> **Duplicate** |
+| Delete projects | Select, tap <img src="icons/icon_6_8.png" alt="Menu" height="20"> in the selection toolbar, then <img src="icons/icon_6_3.png" alt="Delete" height="20"> **Delete** |
+| Multi-select | `Ctrl + Click` to toggle, `Shift + Click` for range, or drag to marquee select |
+
+> **Tip**: The default project name is "My Block Drawings". New projects are numbered automatically if a project with the same name exists.
 
 ---
 
@@ -132,25 +154,25 @@ The **Add Model** screen lets you browse and add models to your project.
 1. Open the catalog via <img src="icons/icon_6_5.png" alt="Add" height="20"> in the Models tab
 2. Scroll through the catalog to browse models — tap category headers to expand or collapse them
 3. Tap a model to see details
-4. Choose your **texture resolution** (64×64 to 1024×1024 by default — you can customize available resolutions in Settings)
-5. Tap **Add to Project** to confirm
+4. Choose your **texture resolution** from the UV Resolution dropdown (64×64 to 1024×1024 by default — you can customize available resolutions in Settings)
+5. Optionally toggle **Blank Texture** on to start with a blank canvas instead of the model's default starting textures
+6. Tap **Add Model** to confirm
 
 ### Importing Custom Models
 
-You can import your own 3D models.
+You can import your own 3D models — one at a time or several at once.
 
 **Supported formats**: FBX, OBJ, GLTF, GLB, BBModel (Blockbench)
 
 #### Import Workflow
 
 1. Tap **Import Model** in the Add Model screen
-2. Select your model file from the file picker (if importing a bbmodel, you will be prompted to either merge layers or preserve layers)
-3. The import screen appears with the following options:
-   - **Import Textures** toggle — Enable to import textures from the model file (if available)
-   - **UV Resolution** dropdown — Choose the texture resolution for each material
-   - **Translucent/Opaque** toggle — Set whether materials support transparency
-4. If the model has multiple materials, they appear in a list where you can configure each one individually
-5. Tap **Finalize Import** to add the model to your project
+2. The import screen opens. At the top is the **Import Textures** toggle (on by default) — this controls whether textures from the model files are imported
+3. Click **Choose Models to Import** to open the file picker — you can select one or multiple model files at once
+4. If any selected files are BBModel files, a popup appears with a **Flatten BlockBench Layers** toggle — turn it on to merge all layers into one, or leave it off to preserve them as separate layers
+5. After parsing, all materials from all selected models appear in a single list. Each row shows the model name, material name, and auto-detected resolution
+6. Use the **UV Resolution** dropdown and **Opaque/Translucent** toggle to configure materials. Select specific material rows first to change only those, or leave none selected to change all at once
+7. Tap **Finalize Import** to add the model(s) to your project
 
 > **Tip**: Ensure your model file's textures are located in the same folder as the model, or the textures may not import correctly.
 
@@ -159,7 +181,7 @@ You can import your own 3D models.
 Your imported models appear at the top of the Model Catalog. Hover over a custom model tile to access the tile menu with these options:
 
 - <img src="icons/icon_2_3.png" alt="Rename" height="20"> **Rename** — Change the model's display name
-- <img src="icons/icon_1_6.png" alt="Configure Materials" height="20"> **Configure Materials** — Adjust settings for each material:
+- <img src="icons/icon_1_8.png" alt="Configure Materials" height="20"> **Configure Materials** — Adjust settings for each material:
   - **UV Resolution** — Change the texture resolution
   - **Translucent/Opaque** — Toggle transparency support
 - <img src="icons/icon_6_3.png" alt="Delete" height="20"> **Delete** — Permanently remove the source model
@@ -176,12 +198,12 @@ The Model Painter is where you create your pixel art directly on 3D models.
 
 #### PC Layout
 
-The PC interface has three main areas:
+The PC interface has four main areas:
 
-- **Top Bar**: Contains the Home button (return to Models tab), Undo/Redo buttons, tool selection buttons, view toggles (Grid, Explode, Rotation Snap), and the Help button
-- **3D Viewport**: The main area where your model is displayed — this is where you paint
-- **Palette Panel**: Displayed on the right side, shows your current color palette for quick color selection
-- **Context Bar**: At the bottom of the screen, shows options specific to the currently selected tool (brush size, gradient colors, etc.)
+- **Top Bar** (horizontal, across the top): Home <img src="icons/icon_7_2.png" alt="Home" height="20">, Undo <img src="icons/icon_2_6.png" alt="Undo" height="20"> / Redo <img src="icons/icon_3_6.png" alt="Redo" height="20">, the **Subtoolbar** (context-sensitive buttons and sliders for the active tool), camera navigation buttons (zoom, rotate, reset), view toggles (Camera Filter, Grid, Rotation Snap, Focus Mode, Explode), Color Picker <img src="icons/icon_3_4.png" alt="Picker" height="20">, Edit Palette <img src="icons/icon_3_8.png" alt="Edit Palette" height="20">, and Help <img src="icons/icon_6_6.png" alt="Help" height="20">
+- **Left Toolbar** (vertical, left side): All painting tools arranged in a single column — Selection, Magic Wand, Brush, Spray, Line, Pen Eraser, Face Eraser, Fill, Blend, Shape, and Stamp
+- **3D Viewport** (center): The main area where your model is displayed — this is where you paint
+- **Palette Panel** (right side): Shows your current color palette for quick color selection, plus the Layer button <img src="icons/icon_11_6.png" alt="Layers" height="20">
 
 ### Camera Controls
 
@@ -189,66 +211,88 @@ Navigate around your model to paint from any angle:
 
 | Action | Control |
 |--------|---------|
-| **Rotate** | Left-click + drag |
+| **Rotate** | Right-click + drag |
 | **Zoom** | Scroll wheel |
 | **Pan** | Middle-click + drag |
 
 #### View Options
 
-- <img src="icons/icon_4_6.png" alt="Grid" height="20"> **Grid**: Toggle texel grid overlay to see pixel boundaries
-- <img src="icons/icon_6_2.png" alt="Explode" height="20"> **Explode**: Separate model parts for easier painting (if supported)
-- <img src="icons/icon_6_7.png" alt="Rotation Snap" height="20"> **Rotation Snap**: Snap camera rotation to 45° increments
+These toggle buttons are in the top bar:
+
+- <img src="icons/icon_13_7.png" alt="Camera Filter" height="20"> **Camera Filter**: Toggle matcap/cavity rendering effects for enhanced depth perception (on by default)
+- <img src="icons/icon_4_6.png" alt="Grid" height="20"> **Grid** (`G`): Toggle texel grid overlay to see pixel boundaries
+- <img src="icons/icon_6_7.png" alt="Rotation Snap" height="20"> **Rotation Snap** (`S`): Snap camera rotation to the nearest 45° angle when you release the mouse
 - <img src="icons/icon_14_7.png" alt="Focus Mode" height="20"> **Focus Mode** (`Ctrl + H`): Isolate a single face for distraction-free painting. Click the button to arm it, then click any face to zoom in and hide the rest of the model. Click again to exit.
+- <img src="icons/icon_6_2.png" alt="Explode" height="20"> **Explode** (`E`): Separate model parts for easier painting (available on supported multi-part models)
 
 ---
 
 ### Painting Tools
 
-Draw on a Block provides a variety of tools for creating pixel art. Select tools from the toolbar, then paint by clicking on the model.
+Draw on a Block provides a variety of tools for creating pixel art. Select tools from the **left toolbar**, then left-click on the model to paint.
 
-#### Basic Tools
+Some tools in the left toolbar have **subtools** — when you select one, the **subtoolbar** (in the top bar) shows toggle buttons for its subtools. For example, selecting Fill shows buttons for Solid Fill, Color Replace, Linear Gradient, and Radial Gradient.
+
+#### Left Toolbar (top to bottom)
 
 | Tool | Icon | Description |
 |------|------|-------------|
 | **Selection** | <img src="icons/icon_1_1.png" alt="Selection" height="20"> | Select rectangular regions for copy/paste/transform |
+| **Magic Wand** | <img src="icons/icon_10_5.png" alt="Magic Wand" height="20"> | Select contiguous pixels of the same color |
 | **Brush** | <img src="icons/icon_1_3.png" alt="Brush" height="20"> | Paint pixels with the current color |
-| **Eraser** | <img src="icons/icon_1_4.png" alt="Eraser" height="20"> | Remove pixels (make transparent) |
-| **Fill** | <img src="icons/icon_4_4.png" alt="Fill" height="20"> | Fill a face or selection with color |
-| **Color Picker** | <img src="icons/icon_8_4.png" alt="Color Picker" height="20"> | Sample a color from the model |
+| **Spray Paint** | <img src="icons/icon_4_3.png" alt="Spray" height="20"> | Paint with randomized dot patterns in a radius |
+| **Line** | <img src="icons/icon_5_3.png" alt="Line" height="20"> | Draw straight lines between two points |
+| **Pen Eraser** | <img src="icons/icon_1_4.png" alt="Pen Eraser" height="20"> | Erase individual pixels you touch |
+| **Face Eraser** | <img src="icons/icon_2_4.png" alt="Face Eraser" height="20"> | Erase an entire face in one click |
+| **Fill** | <img src="icons/icon_4_4.png" alt="Fill" height="20"> | Fill tools (see subtools below) |
+| **Blend** | <img src="icons/icon_9_2.png" alt="Blend" height="20"> | Blend tools (see subtools below) |
+| **Shape** | <img src="icons/icon_1_5.png" alt="Shape" height="20"> | Draw rectangles and circles (see subtools below) |
+| **Stamp** | <img src="icons/icon_5_5.png" alt="Stamp" height="20"> | Open the Decal Library to apply a decal |
+
+#### Color Picker
+
+The Color Picker <img src="icons/icon_3_4.png" alt="Color Picker" height="20"> is a toggle button in the **top bar** (not the left toolbar). Click it to enter picker mode, then click any pixel on the model to sample its color.
 
 > **Tip**: Hold **Alt** to temporarily switch to the Color Picker while using any tool.
 
-#### Shape Tools
+#### Fill Subtools
 
-| Tool | Icon | Description |
-|------|------|-------------|
-| **Line** | <img src="icons/icon_5_3.png" alt="Line" height="20"> | Draw straight lines between two points |
+When **Fill** is selected, the subtoolbar shows:
+
+| Subtool | Icon | Description |
+|---------|------|-------------|
+| **Solid Fill** | <img src="icons/icon_10_1.png" alt="Solid Fill" height="20"> | Flood-fill an area with solid color (default) |
+| **Color Replace** | <img src="icons/icon_11_1.png" alt="Color Replace" height="20"> | Replace all pixels of the clicked color on a face |
+| **Linear Gradient** | <img src="icons/icon_12_1.png" alt="Linear Gradient" height="20"> | Fill with a gradient between two points |
+| **Radial Gradient** | <img src="icons/icon_13_1.png" alt="Radial Gradient" height="20"> | Fill with a circular gradient from center outward |
+
+When a gradient subtool is selected, two **color boxes** appear in the subtoolbar. Click a color box to assign it the currently selected palette color — the gradient blends between these two colors.
+
+#### Blend Subtools
+
+When **Blend** is selected, the subtoolbar shows:
+
+| Subtool | Icon | Description |
+|---------|------|-------------|
+| **Blend Brush** | <img src="icons/icon_10_2.png" alt="Blend Brush" height="20"> | Smooth colors by blending neighboring pixels |
+| **Blend Line** | <img src="icons/icon_11_2.png" alt="Blend Line" height="20"> | Create smooth color transitions along a line |
+
+Blend tools also show **Size** and **Strength** sliders, plus an **Include Transparent** toggle to control whether transparent pixels are included in the blend calculation.
+
+#### Shape Subtools
+
+When **Shape** is selected, the subtoolbar shows:
+
+| Subtool | Icon | Description |
+|---------|------|-------------|
 | **Rectangle (Hollow)** | <img src="icons/icon_1_5.png" alt="Rect Hollow" height="20"> | Draw rectangular outlines |
 | **Rectangle (Solid)** | <img src="icons/icon_2_5.png" alt="Rect Solid" height="20"> | Draw filled rectangles |
 | **Circle (Hollow)** | <img src="icons/icon_3_5.png" alt="Circle Hollow" height="20"> | Draw circular outlines |
 | **Circle (Solid)** | <img src="icons/icon_4_5.png" alt="Circle Solid" height="20"> | Draw filled circles |
 
-#### Advanced Tools
+#### Subtoolbar Options
 
-| Tool | Icon | Description |
-|------|------|-------------|
-| **Spray Paint** | <img src="icons/icon_4_3.png" alt="Spray" height="20"> | Paint with randomized dot patterns |
-| **Blend Brush** | <img src="icons/icon_10_2.png" alt="Blend Brush" height="20"> | Smooth colors by blending neighboring pixels |
-| **Blend Line** | <img src="icons/icon_11_2.png" alt="Blend Line" height="20"> | Create smooth color transitions along a line |
-| **Linear Gradient** | <img src="icons/icon_12_1.png" alt="Linear Gradient" height="20"> | Fill with a gradient between two points |
-| **Radial Gradient** | <img src="icons/icon_13_1.png" alt="Radial Gradient" height="20"> | Fill with a circular gradient from center outward |
-| **Replace Color** | <img src="icons/icon_11_1.png" alt="Replace Color" height="20"> | Replace all instances of one color with another on a face |
-| **Face Eraser** | <img src="icons/icon_2_4.png" alt="Face Eraser" height="20"> | Erase an entire face at once |
-| **Stamp** | <img src="icons/icon_5_5.png" alt="Stamp" height="20"> | Apply decals from your decal library |
-
-#### Tool Options
-
-Most tools have adjustable settings in the **Context Bar**:
-
-- **Brush Size**: 1-100 pixels. The slider uses a quadratic curve for finer control at small sizes. Click the value label to type an exact number.
-- **Blend Power**: 1-100% strength for blend tools
-- **Include Transparent** (Blend tools): Toggle to include transparent pixels in blend calculations without color contamination
-- **Gradient Colors**: Two color boxes used by the gradient tools. Click a color box to assign it the currently selected palette color. Then choose a different color from the palette and click the other color box. The gradient will blend between these two colors.
+Many tools show a **size slider** in the subtoolbar for adjusting brush/tool size (1–100 pixels). The slider uses a quadratic curve for finer control at small sizes.
 
 > **Tip**: Click on any slider's numeric value to type an exact number directly.
 
@@ -267,7 +311,7 @@ Layers let you organize your painting into separate, editable surfaces — just 
 
 #### Layer Controls
 
-Open the **Layer Window** by tapping <img src="icons/icon_6_5.png" alt="Layers" height="20"> or pressing **L**.
+Open the **Layer Window** by tapping <img src="icons/icon_11_6.png" alt="Layers" height="20"> or pressing **L**.
 
 | Action | How |
 |--------|-----|
@@ -347,7 +391,6 @@ With an active selection, you can use the buttons in the selection context bar:
 
 | Action | Shortcut | Icon | Description |
 |--------|----------|------|-------------|
-| Magic Wand | `Ctrl + W` | <img src="icons/icon_10_5.png" alt="Magic Wand" height="20"> | Select contiguous area of same color |
 | Copy | `Ctrl + C` | <img src="icons/icon_2_1.png" alt="Copy" height="20"> | Copy selected pixels to clipboard |
 | Paste | `Ctrl + V` | <img src="icons/icon_3_1.png" alt="Paste" height="20"> | Paste clipboard contents |
 | Flip Horizontal | `Shift + H` | <img src="icons/icon_2_2.png" alt="Flip H" height="20"> | Mirror selection horizontally |
@@ -392,71 +435,136 @@ The Scene Builder lets you arrange models from your project into a 3D scene on a
 2. Double-click a scene tile (or create a new one with <img src="icons/icon_6_5.png" alt="Add" height="20">)
 3. The Scene Builder opens with an empty grid (or your previously saved arrangement)
 
-### Builder Toolbar
+### Interface Overview
 
-The top bar provides these controls:
+The Scene Builder has two toolbars:
+
+- **Top Bar** (shared with Model Painter): Home <img src="icons/icon_7_1.png" alt="Home" height="20">, Undo <img src="icons/icon_2_6.png" alt="Undo" height="20"> / Redo <img src="icons/icon_3_6.png" alt="Redo" height="20">, the contextual **Subtoolbar** (see below), camera controls, Grid toggle <img src="icons/icon_4_6.png" alt="Grid" height="20"> (`G`), Grid Axis button, and Help <img src="icons/icon_6_6.png" alt="Help" height="20">
+- **Left Toolbar** (Scene Builder–specific): Tool buttons for placement, grid level, and actions
+
+#### Left Toolbar
 
 | Button | Icon | Description |
 |--------|------|-------------|
-| **Home** | <img src="icons/icon_7_1.png" alt="Home" height="20"> | Return to the Scenes tab |
-| **Undo** | <img src="icons/icon_2_6.png" alt="Undo" height="20"> | Undo the last action |
-| **Redo** | <img src="icons/icon_3_6.png" alt="Redo" height="20"> | Redo the last undone action |
-| **Add Model** | <img src="icons/icon_6_5.png" alt="Add" height="20"> | Open the model picker to place a model |
-| **Paint Scene** | <img src="icons/icon_1_3.png" alt="Paint" height="20"> | Switch to Scene Painter mode |
-| **Grid Toggle** | <img src="icons/icon_4_6.png" alt="Grid" height="20"> | Show/hide the placement grid |
-| **Snapshot** | <img src="icons/icon_9_8.png" alt="Snapshot" height="20"> | Capture a snapshot of the scene |
-| **Help** | <img src="icons/icon_6_6.png" alt="Help" height="20"> | Enter Help Mode |
+| **Scene Painter** | <img src="icons/icon_1_3.png" alt="Scene Painter" height="20"> | Switch to Scene Painter mode (`Tab`) |
+| **Place Single** | <img src="icons/icon_14_4.png" alt="Place Single" height="20"> | Place one model at a time (`S`) |
+| **Paint Area** | <img src="icons/icon_15_4.png" alt="Paint Area" height="20"> | Drag to fill a rectangular area (`P`) |
+| **Grid Up** | <img src="icons/icon_11_4.png" alt="Grid Up" height="20"> | Raise the active grid level (`Shift + W`) |
+| **Grid Down** | <img src="icons/icon_12_4.png" alt="Grid Down" height="20"> | Lower the active grid level (`Shift + S`) |
+| **Fork** | <img src="icons/icon_13_4.png" alt="Fork" height="20"> | Fork selec­ted model's textures (`Ctrl + F`) |
+
+#### Subtoolbar
+
+When models are selected or you are in placement mode, a **subtoolbar** appears in the top bar with these buttons:
+
+| Button | Icon | Description |
+|--------|------|-------------|
+| **Rotate** | <img src="icons/icon_4_2.png" alt="Rotate" height="20"> | Rotate 90° on the current transform axis (`Space`). **Shift + click** for incremental rotation. |
+| **Flip** | <img src="icons/icon_2_2.png" alt="Flip" height="20"> | Flip (mirror) on the current transform axis (`F`) |
+| **Transform Axis** | <img src="icons/icon_13_5.png" alt="Axis" height="20"> | Cycle the transform axis: Y → Z → X (`A`). Controls which axis Rotate and Flip operate on. Icon updates to show the active axis. |
+| **Reset** | <img src="icons/icon_15_5.png" alt="Reset" height="20"> | Reset orientation to default (`R`) |
+| **Delete** | <img src="icons/icon_6_3.png" alt="Delete" height="20"> | Delete selected models (`Delete`) |
+
+### Selecting Models
+
+When you are **not** in placement mode, click anywhere to interact with placed models:
+
+| Action | Control |
+|--------|---------|
+| **Select** | Click a placed model |
+| **Add / remove from selection** | `Shift + Click` a model |
+| **Marquee select** | Click and drag on an empty area to draw a selection box |
+| **Deselect all** | Click an empty area or press `Escape` |
 
 ### Placing Models
 
-1. Tap <img src="icons/icon_6_5.png" alt="Add" height="20"> **Add Model** in the toolbar
-2. Select a model from your project's model list
-3. The model appears on the grid at the cursor position
-4. Click to place the model
+1. Select a model from the model palette (opens via <img src="icons/icon_6_5.png" alt="Add" height="20"> in the top bar)
+2. Choose **Place Single** <img src="icons/icon_14_4.png" alt="Place Single" height="20"> (`S`) or **Paint Area** <img src="icons/icon_15_4.png" alt="Paint Area" height="20"> (`P`) from the left toolbar
+3. A **ghost preview** of the model follows your cursor on the grid
+4. **Place Single**: Click to place one model. **Paint Area**: Click and drag to fill a rectangular region with the model.
 
-### Transforming Models
+The grid is **occupancy-aware** — each placed model occupies grid cells. Paint Area automatically skips cells that are already occupied. Models can be stacked on surfaces of previously placed models.
 
-Select a placed model to transform it:
+> **Tip**: Press `Escape` to exit placement mode and return to selection mode.
 
-| Action | Control | Shortcut |
-|--------|---------|----------|
-| **Move** | Drag the model | Arrow keys (grid-snapped) |
-| **Move (fine)** | Hold **Shift** + drag | Shift + Arrow keys (½ grid step) |
-| **Rotate** | Click while placing, or use shortcut | `Space` (90° increments) |
-| **Flip** | Mirror the model | `F` |
-| **Reset rotation** | Reset to default orientation | `R` |
-| **Delete** | Remove the selected model | `Delete` |
+### Moving & Duplicating Models
 
-> **Tip**: Hold **Shift** while dragging a model to move it in half-grid increments for finer positioning.
+Select a model to reveal the **Move Widget** — a 3D positioning handle. Drag the widget to reposition:
 
-### Grid Levels
+| Drag Mode | Result |
+|-----------|--------|
+| **Drag** | Grid-snapped move |
+| **Shift + Drag** | Fine-snap move (sub-cell positioning using texel grid, ignores occupancy) |
+| **Ctrl + Drag** | Duplicate the model at a new grid position |
+| **Ctrl + Shift + Drag** | Duplicate with fine-snap positioning |
 
-The Scene Builder uses a layered grid system. You can raise or lower the active grid level to place models at different heights:
+### Rotating & Flipping
+
+Rotation and flipping operate around the current **Transform Axis**. The Transform Axis is independent of the Grid Axis and controls which world axis the operation uses.
+
+| Action | Shortcut | Description |
+|--------|----------|-------------|
+| **Rotate 90°** | `Space` | Quarter-turn around the current transform axis |
+| **Incremental Rotate** | `Shift + Space` | Rotate by a smaller angle (default 15°, configurable per-scene) |
+| **Flip** | `F` | Mirror the model along the current transform axis |
+| **Reset Orientation** | `R` | Return the model to its default orientation |
+| **Cycle Transform Axis** | `A` | Change which axis Rotate/Flip use: Y → Z → X → Y |
+
+### Grid System
+
+The Scene Builder uses a grid for model placement. There are **two independent axis controls**:
+
+#### Grid Axis
+
+Controls which plane the placement grid sits on:
+
+| Axis | Plane | Icon |
+|------|-------|------|
+| **Y** (default) | Horizontal floor | <img src="icons/icon_13_3.png" alt="Y Axis" height="20"> |
+| **Z** | Vertical wall (front/back) | <img src="icons/icon_14_3.png" alt="Z Axis" height="20"> |
+| **X** | Vertical wall (left/right) | <img src="icons/icon_12_3.png" alt="X Axis" height="20"> |
+
+Cycle the grid axis using the **Grid Axis** button in the top bar. Each axis remembers its own grid level — switching axes restores the last-used level for that axis.
+
+#### Grid Level
+
+Raise or lower the placement plane within the current grid axis:
 
 | Action | Shortcut |
 |--------|----------|
 | **Grid Up** | `Shift + W` |
 | **Grid Down** | `Shift + S` |
 
-#### Grid Axis
+Toggle grid visibility with `G`.
 
-By default, models are placed on the **Y axis** (horizontal floor). You can cycle the placement axis to build on walls or ceilings:
+#### Transform Axis vs. Grid Axis
 
-| Axis | Grid Plane | Icon |
-|------|-----------|------|
-| **Y** (default) | Horizontal floor | <img src="icons/icon_13_5.png" alt="Y Axis" height="20"> |
-| **Z** | Vertical wall (front/back) | <img src="icons/icon_14_5.png" alt="Z Axis" height="20"> |
-| **X** | Vertical wall (left/right) | <img src="icons/icon_12_5.png" alt="X Axis" height="20"> |
+These are **separate** controls:
 
-Press **A** to cycle through axes: Y → Z → X → Y.
+- **Grid Axis** — determines the *plane* where new models are placed (floor, wall, ceiling). Changed via the Grid Axis button in the top bar.
+- **Transform Axis** — determines the *direction* that Rotate and Flip operate around. Changed with the `A` key or the axis button in the subtoolbar.
+
+You can, for example, place models on a wall (Grid Axis = Z) while rotating them around the vertical axis (Transform Axis = Y).
+
+### Per-Scene Settings
+
+Each scene has configurable snapping settings, accessible from the tile hover menu (<img src="icons/icon_6_8.png" alt="Menu" height="20">) on the scene tile in the **Scenes** tab:
+
+| Setting | Default | Description |
+|---------|---------|-------------|
+| **Height Step** | 1.0 | Distance per grid level step |
+| **Texel Density** | 16 | Grid subdivisions per unit (affects fine-snap resolution) |
+| **Incremental Rotation** | 15° | Angle used by `Shift + Space` and Shift + click on the Rotate button |
 
 ### Forking Models
 
 **Fork** creates an independent copy of a model's textures, allowing you to paint unique variations without affecting the original:
 
-1. Select a placed model
-2. Press `Ctrl + F` or use the Fork button
-3. The model now has its own independent texture
+1. Select one or more placed models
+2. Press `Ctrl + F` or click the Fork button <img src="icons/icon_13_4.png" alt="Fork" height="20"> in the left toolbar
+3. A confirmation dialog lists every model that will be duplicated
+
+When you fork multiple models at once, the selection is grouped by model type. All instances of the **same** source model share a single new fork, while each **different** model type gets its own fork. For example, forking three chairs and two tables creates one forked chair (used by all three instances) and one forked table (used by both instances).
 
 > **Tip**: Without forking, all instances of the same model share textures — painting one changes them all. Fork when you want unique appearances.
 
@@ -464,7 +572,7 @@ Press **A** to cycle through axes: Y → Z → X → Y.
 
 To paint models within your scene:
 
-1. Tap <img src="icons/icon_1_3.png" alt="Paint" height="20"> **Paint Scene** in the toolbar, or press **Tab**
+1. Click the <img src="icons/icon_1_3.png" alt="Scene Painter" height="20"> **Scene Painter** button in the left toolbar, or press **Tab**
 2. The Scene Builder transitions to **Scene Painter** mode
 3. Press **Tab** again to return to the Scene Builder
 
@@ -472,57 +580,59 @@ To paint models within your scene:
 
 ## Scene Painter
 
-The Scene Painter lets you paint models directly within a scene, without leaving the scene context.
+The Scene Painter lets you paint models directly within a scene, without leaving the scene context. All of the Model Painter's tools — brushes, eraser, fill, selections, layers, palettes — are available here.
 
 ### Opening the Scene Painter
 
 From the **Scene Builder**, switch to Scene Painter by:
 
-- Tapping <img src="icons/icon_1_3.png" alt="Paint" height="20"> **Paint Scene** in the toolbar
+- Clicking <img src="icons/icon_1_3.png" alt="Paint" height="20"> **Scene Painter** in the left toolbar
 - Pressing **Tab**
 
-### Scene Painter vs. Model Painter
+### Differences from Model Painter
 
-| Feature | Model Painter | Scene Painter |
-|---------|--------------|---------------|
-| Open from | Models tab | Scene Builder |
-| Paints on | Single model | Any model in the scene |
-| Camera shows | One model | Entire scene |
-| Switch model | N/A | Just paint on any model |
-| Grid/Explode | Per-model | Per-model (on selected) |
+The Scene Painter has all the same tools, layers, and palette features as the Model Painter, plus a **Fork** button <img src="icons/icon_13_4.png" alt="Fork" height="20"> at the bottom of the tool panel. Two features from the Model Painter are **not** available in Scene Painter:
 
-### Cross-Model Painting
-
-In the Scene Painter, you can paint seamlessly across different models in your scene — simply move your brush to any visible model and start painting. There is no need to manually select or switch models; the painter automatically detects which model you're painting on.
+- <img src="icons/icon_6_2.png" alt="Explode" height="20"> **Explode** — not supported in scene context
+- <img src="icons/icon_14_7.png" alt="Focus Mode" height="20"> **Focus Mode** — not supported in scene context
 
 ### Forking in Scene Painter
 
-You can fork models directly from Scene Painter using `Ctrl + F`. This creates an independent texture copy for the currently selected model, letting you give it a unique appearance within the scene.
+Fork works as a **toggle mode** in Scene Painter:
+
+1. Press `Ctrl + F` or click <img src="icons/icon_13_4.png" alt="Fork" height="20"> at the bottom of the tool panel
+2. A sticky toast appears: "Click on a model to fork"
+3. Hover over models to see an outline highlight
+4. Click a model to fork it — a confirmation dialog appears
+
+Click empty space to cancel fork mode without forking.
 
 ### Returning to Scene Builder
 
-Press **Tab** or tap the <img src="icons/icon_9_5.png" alt="Builder" height="20"> **Scene Builder** button in the toolbar to return to the Scene Builder.
+Press **Tab** or click the <img src="icons/icon_7_1.png" alt="Back" height="20"> back arrow (home button) to return to the Scene Builder.
 
 ---
 
 ## Exporting Your Work
 
-Share your painted models by exporting them as images or 3D files.
+Share your painted models by exporting them as textures or 3D files. You can export a single model or multiple models at once.
 
 ### Export Screen
 
-1. Select model(s) in the Models tab
-2. Tap <img src="icons/icon_4_1.png" alt="Export" height="20"> **Export** in the selection menu
-3. The Export screen appears showing:
-   - A list of selected models with their materials and layer counts
-   - **Merge Layers** toggle — When on, all layers are flattened into a single texture
-   - **Export Models** toggle — When on, exports 3D model files along with textures
-   - **Format dropdown** (when Export Models is on) — Choose GLTF, OBJ, or BBModel
-   - **Zip Exports** toggle — Bundle output into a ZIP archive
+1. Select one or more models in the Models tab
+2. Tap <img src="icons/icon_6_8.png" alt="Menu" height="20"> in the selection toolbar, then <img src="icons/icon_4_1.png" alt="Export" height="20"> **Export** (or use **Export** from a tile's hover menu for a single model)
+3. The Export screen shows all selected models with their materials, resolutions, and layer counts
+4. Configure export options:
 
-4. Tap **Export** to save your files
+| Option | Description |
+|--------|-------------|
+| **Merge Layers** | When on (default), all layers are flattened into a single texture per material. When off, each layer is exported as a separate PNG. |
+| **Export Models** | When on, exports 3D model files alongside textures. When off, exports only texture images. |
+| **Format** | Choose the 3D format when Export Models is on: GLTF, OBJ, or BBModel |
+| **Zip Exports** | When on, each model's output is bundled into a ZIP archive. When off, output goes into a subfolder per model. |
 
-> **Note**: If a file with the same name already exists in the destination folder, you'll be prompted to either overwrite or rename.
+5. Tap **Export** — a folder picker opens to choose the output directory
+6. If output files already exist, a **File Conflict** dialog appears with options to **Rename** (auto-rename new files) or **Overwrite** existing files
 
 ### Export Formats
 
@@ -540,7 +650,7 @@ Capture images of your painted models and scenes to share with others.
 
 ### Taking a Snapshot
 
-1. Tap <img src="icons/icon_9_8.png" alt="Snapshot" height="20"> **Snapshot** in the Model Painter or Scene Builder toolbar
+1. Tap <img src="icons/icon_10_8.png" alt="Snapshot" height="20"> **Snapshot** (available from the tile hover menu in the Models or Scenes tab)
 2. The Snapshot screen appears with a preview and options
 
 ### Snapshot Options
@@ -567,76 +677,104 @@ Capture images of your painted models and scenes to share with others.
 
 Decals are pre-made images you can stamp onto your models — perfect for eyes, faces, patterns, and details.
 
-### Using Decals
+### Accessing the Decal Library
 
-1. Select the **Stamp Tool** (<img src="icons/icon_5_5.png" alt="Stamp" height="20">)
+- **Stamp Tool** (<img src="icons/icon_5_5.png" alt="Stamp" height="20">) in the Model Painter — opens in stamp mode (select a decal to use it)
+- **Menu > Decal Library** in the Models tab — opens in browse-only mode (manage your decals without stamping)
+
+### Using Decals (Stamp Mode)
+
+1. Select the **Stamp Tool** (<img src="icons/icon_5_5.png" alt="Stamp" height="20">) in the Model Painter
 2. The Decal Library opens
-3. Browse and tap a decal, then tap **Copy to Clipboard**
-4. A toast appears: "Click Face to Paste To"
+3. Click a decal to select it, then tap <img src="icons/icon_2_1.png" alt="Copy" height="20"> **Copy to Clipboard** (or double-click a decal to copy it directly)
+4. The overlay closes and a toast appears: "Click Face to Paste To"
 5. Click on a face to place the decal
 
 ### Managing Decals
 
+Decals are displayed in a flat grid — no categories or folders. All the same tile management patterns apply:
+
 | Action | How |
 |--------|-----|
-| Import decal | Tap <img src="icons/icon_6_5.png" alt="Add" height="20"> to import an image file as a new decal |
-| Export decal | Select a decal and tap <img src="icons/icon_4_1.png" alt="Export" height="20"> in the selection menu |
-| Delete decal | Select and tap <img src="icons/icon_6_3.png" alt="Delete" height="20"> in the selection menu |
-
-### Browsing Decals
-
-Access the Decal Library from:
-- **Stamp Tool** in Model Painter
-- **Menu > Decal Library** in the Models tab (browse-only mode)
+| Import decals | Tap <img src="icons/icon_6_5.png" alt="Add" height="20"> **Import Decal** to select one or more image files |
+| Rename a decal | Hover over a tile and tap <img src="icons/icon_6_8.png" alt="Menu" height="20"> then <img src="icons/icon_2_3.png" alt="Rename" height="20"> **Rename** |
+| Export decals | Select, tap <img src="icons/icon_6_8.png" alt="Menu" height="20"> in the selection toolbar, then <img src="icons/icon_4_1.png" alt="Export" height="20"> **Export** |
+| Delete decals | Select, tap <img src="icons/icon_6_8.png" alt="Menu" height="20"> in the selection toolbar, then <img src="icons/icon_6_3.png" alt="Delete" height="20"> **Delete** |
+| Reorder decals | Select and use <img src="icons/icon_7_6.png" alt="Move Forward" height="20"> **Move Forward** / <img src="icons/icon_8_6.png" alt="Move Backward" height="20"> **Move Backward** in the selection toolbar |
+| Multi-select | `Ctrl + Click` to toggle, `Shift + Click` for range, or drag to marquee select |
+| Toggle view | Tap the view toggle button to switch between grid and compact view |
 
 ---
 
 ## Palette Manager
 
-The Palette Manager is a full-featured color palette editor.
+The Palette Manager is a full-featured color palette editor with three panels.
 
 ### Accessing the Palette Manager
 
 - From the **Models tab**: Menu > **Edit Palettes**
 - From **Model Painter**: Tap the <img src="icons/icon_3_8.png" alt="Edit Palette" height="20"> **Edit Palette** button
 
+### Layout
+
+| Column | Contents |
+|--------|----------|
+| **Palette List** (left) | List of palette names with Built-in / Custom tabs at the bottom |
+| **Color Grid** (center) | Grid of color swatches for the selected palette |
+| **Color Picker** (right) | HSV picker, RGBA sliders, hex input, and color preview |
+
 ### Palette Tabs
 
-At the bottom of the palette list, you'll find two tabs:
+At the bottom of the palette list, two tabs filter which palettes are shown:
 
 - **Built-in** — Pre-made palettes that come with the app (read-only)
 - **Custom** — Your own palettes that you can freely edit
 
-> **Note**: Built-in palettes cannot be modified. If you edit a built-in palette, a copy is automatically created in your Custom tab.
+> **Note**: Built-in palettes cannot be modified directly. If you attempt to edit a color in a built-in palette, a copy is automatically created in your Custom tab.
 
 ### Managing Palettes
 
-| Action | How |
+Use the <img src="icons/icon_6_8.png" alt="Menu" height="20"> menu button in the palette list header to access palette actions:
+
+| Action | Menu Item |
 |--------|-----|
-| Create palette | Tap <img src="icons/icon_6_5.png" alt="Add" height="20"> **New** |
-| Duplicate palette | Select palette, tap <img src="icons/icon_7_4.png" alt="Duplicate" height="20"> |
-| Delete palette | Select palette, tap <img src="icons/icon_6_3.png" alt="Delete" height="20"> (custom palettes only) |
-| Rename palette | Edit the name field at the top |
-| Import palette | Tap <img src="icons/icon_5_1.png" alt="Import" height="20"> **Import** |
+| Create palette | <img src="icons/icon_6_5.png" alt="New" height="20"> **New Palette** |
+| Rename palette | <img src="icons/icon_2_3.png" alt="Rename" height="20"> **Rename Palette** (custom palettes only) |
+| Duplicate palette | <img src="icons/icon_7_4.png" alt="Duplicate" height="20"> **Duplicate Palette** |
+| Import palette | <img src="icons/icon_5_1.png" alt="Import" height="20"> **Import Palette** |
+| Export palette | <img src="icons/icon_4_1.png" alt="Export" height="20"> **Export Palette** |
+| Delete palette | <img src="icons/icon_6_3.png" alt="Delete" height="20"> **Delete Palette** (custom palettes only) |
 
 ### Editing Colors
 
-With a palette selected:
+With a custom palette selected, tap a color swatch in the center grid to edit it:
 
-1. Tap a color swatch to select it
-2. Use the **HSV picker** or **RGB sliders** to adjust
-3. Enter a **hex code** for precise colors
-4. Tap <img src="icons/icon_6_5.png" alt="Add" height="20"> to add new colors
-5. Use the **swap left/right** icons to reorder colors (dragging is not supported)
+1. Use the **HSV picker square** to adjust saturation and brightness
+2. Use the **Hue slider** to change the hue
+3. Adjust individual channels with the **RGBA sliders** (0–255), including alpha for transparency
+4. Enter a **hex code** directly in the hex field
+5. The **color preview swatch** shows the current color with a transparency pattern behind it
+
+Use the <img src="icons/icon_6_8.png" alt="Menu" height="20"> menu button in the color grid header to add or remove colors:
+
+| Action | How |
+|--------|-----|
+| Add color | <img src="icons/icon_6_5.png" alt="Add" height="20"> **Add Color** — adds a copy of the selected color (or white if none selected) |
+| Remove color | <img src="icons/icon_6_3.png" alt="Remove" height="20"> **Remove Color** — removes the selected swatch (requires confirmation) |
+| Reorder colors | Use the swap left/right buttons in the color grid toolbar (dragging is not supported) |
 
 ### Importing Palettes
 
-Supported formats:
-- **PNG** — Colors sampled from image
+Supported import formats (max 512 colors):
+- **PNG** — Colors sampled from image pixels
 - **JASC PAL** — Paint Shop Pro format
 - **ASE** — Adobe Swatch Exchange
 - **GPL** — GIMP Palette
 - **HEX** — Plain text hex codes (one per line)
+
+### Exporting Palettes
+
+Palettes are exported as **.hex** files (one hex color per line). Use <img src="icons/icon_4_1.png" alt="Export" height="20"> **Export Palette** from the palette menu to save to disk.
 
 ---
 
@@ -709,8 +847,8 @@ All shortcuts can be customized in **Settings > Hotkeys**.
 | Brush | `Ctrl + P` |
 | Spray Paint | `Ctrl + A` |
 | Line | `Ctrl + L` |
-| Eraser | `Ctrl + E` |
-| Scrub Brush | `Ctrl + Shift + E` |
+| Pen Eraser | `Ctrl + E` |
+| Face Eraser (Scrub Brush) | `Ctrl + Shift + E` |
 | Fill | `Ctrl + F` |
 | Replace Color | `Ctrl + Shift + F` |
 | Linear Gradient | `Ctrl + G` |
@@ -728,7 +866,7 @@ All shortcuts can be customized in **Settings > Hotkeys**.
 | Action | Keys |
 |--------|------|
 | Add to Selection | `Shift + Click` (drag or Magic Wand) |
-| Subtract from Selection | `Alt + Click` (drag or Magic Wand) |
+| Subtract from Selection | `Ctrl + Click` (drag or Magic Wand) |
 
 ### Selection Transforms
 
@@ -752,14 +890,16 @@ All shortcuts can be customized in **Settings > Hotkeys**.
 | Action | Default |
 |--------|---------|
 | Switch to Scene Painter | `Tab` |
-| Rotate Model | `Space` |
+| Rotate Model (90°) | `Space` |
+| Incremental Rotate | `Shift + Space` |
 | Flip Model | `F` |
-| Reset Rotation | `R` |
-| Cycle Grid Axis | `A` |
+| Reset Orientation | `R` |
+| Cycle Transform Axis | `A` |
 | Place Single | `S` |
 | Paint Area | `P` |
 | Grid Up | `Shift + W` |
 | Grid Down | `Shift + S` |
+| Toggle Grid | `G` |
 | Fork Model | `Ctrl + F` |
 | Reset Camera | `H` |
 
