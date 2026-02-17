@@ -1,64 +1,126 @@
 # Privacy Policy
 
-**Last Updated: January 20, 2026**
+**Draw on a Block**
+**Effective Date:** February 17, 2026
+**Last Updated:** February 17, 2026
 
-Fertile Soil Productions ("we", "our", "us") operates Draw on a Block ("the App"). This Privacy Policy explains how we collect, use, and protect your information.
+---
 
-## Information We Collect
+## Summary
 
-**Account Information**  
-When you sign in with Google, we receive your Google account email address and a unique user ID. This is handled through Google Firebase Authentication.
+Draw on a Block is a 3D pixel art painting application. **We do not require account creation or sign-in.** Your projects, textures, palettes, and settings are stored locally on your device and are never uploaded to our servers.
 
-**Purchase Information**  
-When you make in-app purchases, we store records of your purchases (product IDs, timestamps, platform) in our database to provide you access to purchased content across devices. Payment processing is handled by Stripe; we do not store your payment card details.
+---
 
-**Platform Identifiers**  
-If you use the Steam version, we store your Steam ID to link your Steam DLC ownership to your account. This prevents duplicate entitlements across multiple accounts.
+## 1. Information We Do Not Collect
 
-**Locally Stored Data**  
-Your projects, textures, and settings are stored locally on your device. These are not uploaded to our servers unless you explicitly use cloud features.
+- **No account required** — You do not need to create an account, sign in, or provide an email address to use Draw on a Block.
+- **No personal information** — We do not collect your name, email, address, or any other personally identifiable information.
+- **No analytics or telemetry** — We do not track how you use the app, which features you click, or how long you spend painting.
+- **No advertising** — The app contains no ads and no ad-related tracking.
 
-## What We Don't Collect
+---
 
-We do not use analytics services. We do not track your usage patterns, collect device information, or monitor your behavior within the App.
+## 2. Information Collected via Bug Reports (Optional)
 
-## How We Use Your Information
+If you choose to submit a bug report through the in-app bug report form, the following information is collected and sent to our servers:
 
-- To provide and maintain your account
-- To grant access to purchased content
-- To sync entitlements across devices
-- To provide customer support
+### User-Provided
+- **Section** — Which part of the app the bug occurred in (e.g., Painting, Export)
+- **Description** — Your description of the issue (up to 300 characters)
+- **Steps to Reproduce** — Your explanation of how to trigger the bug (up to 2,000 characters)
 
-## Third-Party Services
+### Auto-Captured (Device Information Only)
+- App version
+- Platform (e.g., Windows)
+- Device model (e.g., GPU/CPU identifier)
+- Operating system version
+- Screen resolution
+- Session duration (seconds since app launch)
+- Timestamp of the report
 
-We use the following third-party services:
-- **Google Firebase** (Authentication, Database) - [Google Privacy Policy](https://policies.google.com/privacy)
-- **Stripe** (Payment Processing) - [Stripe Privacy Policy](https://stripe.com/privacy)
+### Exception Data (Automatic Reports Only)
+If a bug report is triggered automatically by an unhandled exception, the following technical data is also included:
+- Error message and stack trace
+- Active screen at the time of the error
+- Current model state (model name, format, layer count, texture resolution, whether it is a custom import)
 
-## Data Retention
+**No personally identifiable information is included in bug reports.** Bug reports do not contain your name, email, Steam ID, or any content you have created.
 
-We retain your account and purchase data as long as your account is active. You may request deletion of your account by contacting us.
+Bug report data is stored in Firebase Firestore and is used solely for diagnosing and fixing software issues.
 
-## Your Rights
+---
 
-You have the right to:
-- Access the personal data we hold about you
-- Request correction of inaccurate data
-- Request deletion of your data
-- Export your data
+## 3. Steam Integration
 
-To exercise these rights, contact us via our Discord server.
+Draw on a Block is distributed through Steam. When you purchase or run the app:
 
-## Children's Privacy
+- **Steam handles all purchase transactions.** We do not process or store payment information.
+- **Steam ID** is used locally by the app to validate ownership of the base game and any DLC. Your Steam ID is not sent to our servers.
+- **Steam's own privacy policy** governs data collected by the Steam platform. See [Steam's Privacy Policy](https://store.steampowered.com/privacy_agreement/).
 
-The App is not intended for children under 13. We do not knowingly collect information from children under 13. If you believe we have collected information from a child under 13, please contact us immediately.
+---
 
-## Changes to This Policy
+## 4. Local Data Storage
 
-We may update this Privacy Policy from time to time. We will notify you of changes by updating the "Last Updated" date.
+All of your creative work is stored locally on your computer:
 
-## Contact Us
+- Projects, models, and painted textures
+- Custom palettes and decal libraries
+- App settings, hotkey configurations, and preferences
+- Snapshots and exported files
 
-If you have questions about this Privacy Policy, contact us at:
-- **Email:** drawonablock@gmail.com
-- **Discord:** https://discord.gg/eMKJ5U5
+**We have no access to your local files.** Nothing is uploaded unless you explicitly submit a bug report (see Section 2).
+
+---
+
+## 5. Third-Party Services
+
+| Service | Purpose | Data Shared |
+|---------|---------|-------------|
+| **Steam** | Distribution, purchasing, DLC ownership | Managed by Valve; see [Steam Privacy Policy](https://store.steampowered.com/privacy_agreement/) |
+| **Firebase Firestore** | Bug report storage | Device info and bug descriptions (only when you submit a report) |
+
+We do not use any third-party analytics, advertising, or tracking services.
+
+---
+
+## 6. Children's Privacy
+
+Draw on a Block does not knowingly collect any personal information from anyone, including children under 13. Since the app does not require account creation and collects no personal data during normal use, it does not fall under COPPA (Children's Online Privacy Protection Act) data collection requirements.
+
+---
+
+## 7. Data Retention
+
+- **Bug reports** are retained for as long as needed to diagnose and resolve the reported issue, then deleted.
+- **Local data** remains on your device until you delete it. Uninstalling the app removes local data according to your operating system's standard behavior.
+
+---
+
+## 8. Your Rights
+
+Since we do not collect personal information during normal app usage:
+
+- There is no account to delete.
+- There is no personal data stored on our servers from regular use.
+- If you have submitted a bug report and wish to have it removed, contact us (see below).
+
+---
+
+## 9. Changes to This Policy
+
+We may update this Privacy Policy from time to time. Changes will be reflected in the "Last Updated" date at the top of this document. Continued use of the app after changes constitutes acceptance of the updated policy.
+
+---
+
+## 10. Contact
+
+If you have questions about this Privacy Policy or wish to request deletion of a bug report, contact:
+
+- **Developer:** Keith Fox
+- **Support:** drawonablock@gmail.com
+
+---
+
+*© 2024–2026 Keith Fox. All Rights Reserved.*
