@@ -22,17 +22,20 @@ Whether you're creating Minecraft block textures, prototyping game levels, build
 
 ## Videos
 
-[![Watch the video](https://img.youtube.com/vi/bjNn8wMaYTo/0.jpg)](https://youtu.be/bjNn8wMaYTo)
-
-[![Watch the video](https://img.youtube.com/vi/iku4O-Yb8pY/0.jpg)](https://youtu.be/iku4O-Yb8pY)
+| | |
+|-|-|
+|[![Watch the video](https://img.youtube.com/vi/_Fw22qRbNkE/0.jpg)](https://youtu.be/_Fw22qRbNkE)|[![Watch the video](https://img.youtube.com/vi/7emFIke0Knw/0.jpg)](https://youtu.be/7emFIke0Knw)|
+|[![Watch the video](https://img.youtube.com/vi/bjNn8wMaYTo/0.jpg)](https://youtu.be/bjNn8wMaYTo)|[![Watch the video](https://img.youtube.com/vi/iku4O-Yb8pY/0.jpg)](https://youtu.be/iku4O-Yb8pY)|
 
 ---
 
 ## Screenshots
 
-<img width="1920" height="1080" alt="model_painter_2" src="https://github.com/user-attachments/assets/d7064212-03a4-4949-b952-64daa4c27ec6" />
-<img width="1920" height="1080" alt="translucent_grid" src="https://github.com/user-attachments/assets/c434f280-6cfd-401c-ae15-e1851b553076" />
-<img width="1920" height="1080" alt="project_view_2" src="https://github.com/user-attachments/assets/ce1ba47f-b88b-4e02-80b7-00cc636c1a36" />
+| | |
+|-|-|
+|<img width="1920" height="1080" alt="Dozer" src="https://github.com/user-attachments/assets/820c5a4e-fbb2-4cd1-a8eb-6861f2d8f001" />|<img width="1920" height="1080" alt="Scene_Builder_Dungeon_Entrance" src="https://github.com/user-attachments/assets/5f73827b-b2aa-422b-98b1-d0eb2238465e" />|
+|<img width="1920" height="1080" alt="Scene Painter 2" src="https://github.com/user-attachments/assets/174c366f-6f8b-4726-8a19-1d8499fda150" />|<img width="1920" height="1080" alt="Scene Builder" src="https://github.com/user-attachments/assets/aad4f42d-70b3-4e4a-9803-3de2fa43c3a3" />|
+|<img width="1920" height="1080" alt="translucent_grid" src="https://github.com/user-attachments/assets/c434f280-6cfd-401c-ae15-e1851b553076" />|<img width="1920" height="1080" alt="project_view_2" src="https://github.com/user-attachments/assets/ce1ba47f-b88b-4e02-80b7-00cc636c1a36" />|
 
 ---
 
