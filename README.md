@@ -33,9 +33,10 @@ Whether you're creating Minecraft block textures, prototyping game levels, build
 
 | | |
 |-|-|
-|<img width="1920" height="1080" alt="Dozer" src="https://github.com/user-attachments/assets/820c5a4e-fbb2-4cd1-a8eb-6861f2d8f001" />|<img width="1920" height="1080" alt="Scene_Builder_Dungeon_Entrance" src="https://github.com/user-attachments/assets/5f73827b-b2aa-422b-98b1-d0eb2238465e" />|
-|<img width="1920" height="1080" alt="Scene Painter 2" src="https://github.com/user-attachments/assets/174c366f-6f8b-4726-8a19-1d8499fda150" />|<img width="1920" height="1080" alt="Scene Builder" src="https://github.com/user-attachments/assets/aad4f42d-70b3-4e4a-9803-3de2fa43c3a3" />|
-|<img width="1920" height="1080" alt="translucent_grid" src="https://github.com/user-attachments/assets/c434f280-6cfd-401c-ae15-e1851b553076" />|<img width="1920" height="1080" alt="project_view_2" src="https://github.com/user-attachments/assets/ce1ba47f-b88b-4e02-80b7-00cc636c1a36" />|
+|<img width="1920" height="1080" alt="Dozer" src="images/Dozer.png" />|<img width="1920" height="1080" alt="Scene_Builder_Dungeon_Entrance" src="images/Scene_Builder_Dungeon_Entrance.png" />|
+|<img width="1920" height="1080" alt="Scene_Painter_2" src="images/Scene_Painter_2.png" />|<img width="1920" height="1080" alt="Scene Builder" src="images/Scene_Builder.png" />|
+|<img width="1920" height="1080" alt="translucent_grid" src="images/translucent_grid.png" />|<img width="1920" height="1080" alt="project_view_2" src="images/project_view_2.png" />|
+|<img width="1920" height="1080" alt="Scene_Painter_Blank_Canvas" src="images/Scene_Painter_Blank_Canvas.png" />|<img width="1920" height="1080" alt="palette_manager" src="images/palette_manager.png" />|
 
 ---
 
