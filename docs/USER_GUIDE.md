@@ -171,10 +171,26 @@ You can import your own 3D models — one at a time or several at once.
 3. Click **Choose Models to Import** to open the file picker — you can select one or multiple model files at once
 4. If any selected files are BBModel files, a popup appears with a **Flatten BlockBench Layers** toggle — turn it on to merge all layers into one, or leave it off to preserve them as separate layers
 5. After parsing, all materials from all selected models appear in a single list. Each row shows the model name, material name, and auto-detected resolution
-6. Use the **UV Resolution** dropdown and **Opaque/Translucent** toggle to configure materials. Select specific material rows first to change only those, or leave none selected to change all at once
-7. Tap **Finalize Import** to add the model(s) to your project
+6. Toggle **Generate Voxel UV** to enable automatic UV generation for models that lack clean UV maps (see [Voxel UV Generation](#voxel-uv-generation) below). The **Snap to Pixel Grid** toggle (on by default) ensures UV islands align to texel boundaries for crisp pixel art.
+7. Use the **UV Resolution** dropdown and **Opaque/Translucent** toggle to configure materials. Select specific material rows first to change only those, or leave none selected to change all at once
+8. Tap **Finalize Import** to add the model(s) to your project
 
 > **Tip**: Ensure your model file's textures are located in the same folder as the model, or the textures may not import correctly.
+
+#### Voxel UV Generation
+
+Many 3D models — especially those from asset stores or created in general-purpose 3D tools — have UV maps that aren't designed for pixel art. Overlapping UVs, non-axis-aligned islands, and wasted texture space can all make painting frustrating.
+
+**Generate Voxel UV** solves this by creating new UV maps optimized for pixel-perfect painting:
+
+- Groups faces into rectangular islands based on face normals
+- Packs islands tightly into the UV space with minimal waste
+- Aligns islands to axis-aligned orientations so brushstrokes look natural
+- Bakes the model's original textures onto the new UV layout so imported colors are preserved
+
+The **Snap to Pixel Grid** option (enabled by default) additionally aligns each UV island to exact texel boundaries, eliminating sub-pixel gaps that can cause visual artifacts at low resolutions.
+
+> **Tip**: If your model already has clean, non-overlapping UVs, you can leave Generate Voxel UV off. It's most useful for models with messy or overlapping UV maps.
 
 #### Custom Models in the Model Catalog
 
@@ -930,7 +946,7 @@ A: This is usually due to color space differences. Try exporting as PNG with the
 **Q: Import isn't working.**  
 A: Ensure your model file:
 - Is a supported format (FBX, OBJ, GLTF, GLB, BBModel)
-- Has valid UV mapping
+- Has valid UV mapping (or enable **Generate Voxel UV** to create one)
 - Isn't corrupted or password-protected
 - Has its textures in the same folder as the model file (textures must be accessible)
 
