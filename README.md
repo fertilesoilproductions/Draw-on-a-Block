@@ -22,21 +22,17 @@ Whether you're creating Minecraft block textures, prototyping game levels, build
 
 ## Videos
 
-| | |
-|-|-|
-|[![Watch the video](https://img.youtube.com/vi/_Fw22qRbNkE/0.jpg)](https://youtu.be/_Fw22qRbNkE)|[![Watch the video](https://img.youtube.com/vi/7emFIke0Knw/0.jpg)](https://youtu.be/7emFIke0Knw)|
-|[![Watch the video](https://img.youtube.com/vi/bjNn8wMaYTo/0.jpg)](https://youtu.be/bjNn8wMaYTo)|[![Watch the video](https://img.youtube.com/vi/iku4O-Yb8pY/0.jpg)](https://youtu.be/iku4O-Yb8pY)|
+[![Watch the video](https://img.youtube.com/vi/bjNn8wMaYTo/0.jpg)](https://youtu.be/bjNn8wMaYTo)
+
+[![Watch the video](https://img.youtube.com/vi/iku4O-Yb8pY/0.jpg)](https://youtu.be/iku4O-Yb8pY)
 
 ---
 
 ## Screenshots
 
-| | |
-|-|-|
-|<img width="1920" height="1080" alt="Dozer" src="images/Dozer.png" />|<img width="1920" height="1080" alt="Scene_Builder_Dungeon_Entrance" src="images/Scene_Builder_Dungeon_Entrance.png" />|
-|<img width="1920" height="1080" alt="Scene_Painter_2" src="images/Scene_Painter_2.png" />|<img width="1920" height="1080" alt="Scene Builder" src="images/Scene_Builder.png" />|
-|<img width="1920" height="1080" alt="translucent_grid" src="images/translucent_grid.png" />|<img width="1920" height="1080" alt="project_view_2" src="images/project_view_2.png" />|
-|<img width="1920" height="1080" alt="Scene_Painter_Blank_Canvas" src="images/Scene_Painter_Blank_Canvas.png" />|<img width="1920" height="1080" alt="palette_manager" src="images/palette_manager.png" />|
+<img width="1920" height="1080" alt="model_painter_2" src="https://github.com/user-attachments/assets/d7064212-03a4-4949-b952-64daa4c27ec6" />
+<img width="1920" height="1080" alt="translucent_grid" src="https://github.com/user-attachments/assets/c434f280-6cfd-401c-ae15-e1851b553076" />
+<img width="1920" height="1080" alt="project_view_2" src="https://github.com/user-attachments/assets/ce1ba47f-b88b-4e02-80b7-00cc636c1a36" />
 
 ---
 
@@ -101,6 +97,7 @@ Build 3D scenes by arranging your painted models on a grid-based workspace:
 - **Supported formats:** FBX, OBJ, GLTF, GLB, BBModel (Blockbench)
 - Multi-file picker for batch import
 - Two-phase flow: choose files, then configure all materials at once (UV resolution, opaque/translucent)
+- **Voxel UV generation** — automatically creates pixel-art-optimized UV maps for models with messy or overlapping UVs, with snap-to-pixel-grid alignment
 - Blockbench layer preservation with optional flatten toggle
 - Auto-detect textures and resolutions from source files
 
@@ -190,6 +187,7 @@ Manage separate projects — each with its own set of models and textures:
 | Blockbench import/export | ✅ Complete |
 | glTF/GLB import/export | ✅ Complete |
 | FBX/OBJ import/export | ✅ Complete |
+| Voxel UV generation on import | ✅ Complete |
 | Scene Builder | ✅ Complete |
 | In-Scene Painting | ✅ Complete |
 | Multi-axis grid (X/Y/Z) | ✅ Complete |
